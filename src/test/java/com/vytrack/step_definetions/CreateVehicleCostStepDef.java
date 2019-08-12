@@ -72,6 +72,7 @@ public class CreateVehicleCostStepDef {
 	
 	@Then("User should be able to see information on Vheicle Costs")
 	public void user_should_be_able_to_see_information_on_Vheicle_Costs() {
+	pages.basePage().navigateToModule("Fleet","Vehicle Costs");
 	
 	}
 	
